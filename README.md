@@ -16,4 +16,6 @@
 ## Прогресс
 
 - [x] 01 - Hello, World!
-- [ ] 02 - 
+- [x] 02 - Printf/Scanf 
+- [x] 03 - Operators
+- []
