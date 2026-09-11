@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a = 8;
-    int b = 50;
+    int age = 99;
 
-    printf("%d\n", a >= 18 && b <= 60);
+    scanf("%d", &age);
+    printf("%d\n", age);
 
     return 0;
 }
