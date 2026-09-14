@@ -16,6 +16,7 @@
 ## Прогресс
 
 - [x] 01 - Hello, World!
-- [x] 02 - Printf/Scanf 
+- [x] 02 - printf/scanf 
 - [x] 03 - Operators
-- []
+- [x] 04 - if/else
+- [ ] 05 - Loops
