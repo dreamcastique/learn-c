@@ -19,4 +19,6 @@
 - [x] 02 - printf/scanf 
 - [x] 03 - Operators
 - [x] 04 - if/else
-- [ ] 05 - Loops
+- [x] 05 - Loops
+- [x] 06 - Arrays
+- [ ] 07 - 
