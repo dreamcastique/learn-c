@@ -15,7 +15,7 @@ int main() {
 
     p += 1;
 
-    printf("a+1 = %p\na = %d\np = %lx\n", &a, a, p);
+    printf("a+1 = %p\na = %d\np = %ls\n", &a, a, p);
 
     return 0;
 }
