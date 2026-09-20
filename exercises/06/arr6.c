@@ -2,14 +2,17 @@
 
 int main() {
     int N;
-    double minimum;
-    double sum = 0;
     int index = 0;
     int counter = 0;
+    double minimum;
+    double sum;
     double avg;
 
     printf("Введи целое число (1-20): ");
-    scanf("%d", &N);
+    if (scanf("%d", &N) != 1) {
+        printf("Ошибка ввода\n");
+        return 1;
+    }
 
     if (N < 1 || N > 20) {
         printf("Неверный размер\n");
@@ -19,7 +22,10 @@ int main() {
     double arr[N];
     printf("Введи %d чисел\n", N);
     for (int i = 0; i < N; i++) {
-        scanf("%lf", &arr[i]);
+        if (scanf("%lf", &arr[i]) != 1) {
+            printf("Ошибка ввода элемента %d\n", i);
+            return 1;
+        }
     }
 
     minimum = arr[0];
@@ -40,7 +46,11 @@ int main() {
        } 
     }
 
-    printf("sum = %.2f, avg = %.2f, minimum = %.2f, index = %d, counter = %d\n", sum, avg, minimum, index, counter);
+    printf("sum = %.2f\n", sum);
+    printf("avg = %.2f\n", avg);
+    printf("minimum = %.2f\n", minimum);
+    printf("index = %d\n", index);
+    printf("counter = %d\n", counter);
 
     return 0;
 }

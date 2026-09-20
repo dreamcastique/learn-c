@@ -7,9 +7,10 @@
 # Бинарники без расширения
 a.out
 main
-exercises/*
-!exercises/*.c
-!exercises/*.h
+exercises/**
+!exercises/**/
+!exercises/**/*.c
+!exercises/**/*.h
 
 # IDE
 .vscode/
