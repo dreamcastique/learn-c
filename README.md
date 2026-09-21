@@ -21,4 +21,6 @@
 - [x] 04 - if/else
 - [x] 05 - Loops
 - [x] 06 - Arrays
-- [ ] 07 - 
+- [x] 07 - Functions
+- [x] 08 - Pointers
+- [ ] 09 - 
