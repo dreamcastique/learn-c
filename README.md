@@ -23,4 +23,5 @@
 - [x] 06 - Arrays
 - [x] 07 - Functions
 - [x] 08 - Pointers
-- [ ] 09 - 
+- [x] 09 - Strings
+- [ ] 10 - 
