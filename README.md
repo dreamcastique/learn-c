@@ -24,4 +24,5 @@
 - [x] 07 - Functions
 - [x] 08 - Pointers
 - [x] 09 - Strings
-- [ ] 10 - 
+- [x] 10 - Structs
+- [ ] 11 - 
