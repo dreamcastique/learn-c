@@ -26,4 +26,4 @@
 - [x] 09 - Strings
 - [x] 10 - Structs
 - [x] 11 - Files
-- [ ] 12 - 
+- [x] 12 - Preprocessor
